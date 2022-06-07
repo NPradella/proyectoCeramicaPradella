@@ -469,6 +469,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#edeef0', end
         flex-direction: row;
         align-items: flex-end;
     }
+    
+
+}
+
+@media (min-width: 1440px){
     .grilla-sections{
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -477,5 +482,4 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#edeef0', end
         display: flex;
         align-items: center;
     }
-
 }

@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>  
-
-    
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,18 +9,34 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Koulen&family=Roboto:wght@400;500;900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 </head>
-<body>
+<body class="color-fondo">
     <header>
-        <div class="contenedor">
-            <img src="./assets/logofinal.jpeg" alt="" class="contenedor__logo">
-            <nav class="navegador">
-                <a href="./index2.0.html">Inicio</a>
-                <a href="#sobre-nosotros">Sobre Nosotros</a>
-                <a href="./pages/productos.html">Productos</a>
-                <a href="./pages/contacto.html">Contacto</a>
-            </nav>
-        </div> 
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <img src="./assets/logofinal.jpeg" alt="" class="contenedor__logo img-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-end">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./index2.0.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#sobre-nosotros">Sobre Nosotros</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./pages/productos.html">Productos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./pages/contacto.html">Contacto</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
     </header>    
         <section class="hero">
             <h1 class="hero__titulo">Redescubrí la cerámica</h1> 
@@ -38,23 +52,25 @@
             </div>
             
         </section>
-        <div class="grilla-sections">
-
-            <section id="mas-productos">
-                <h2 class="mas-productos__titulo">Conocé todos nuestros Productos</h2>
-                <div class="mas-productos-contenedor">
-                    <img class="mas-productos__img" src="./assets/Prod1.jpg" alt="">
-                    <button  class="mas-productos__boton">VER MÁS</button>
+        <div class="container">
+            <div class="row">
+                <div class="col-xxl-6">
+                    <section id="mas-productos">
+                        <h2 class="mas-productos__titulo">Conocé todos nuestros Productos</h2>
+                        <div class="mas-productos-contenedor">
+                            <img class="mas-productos__img img-fluid" src="./assets/Prod1.jpg" alt="">
+                            <button  class="mas-productos__boton">VER MÁS</button>
+                        </div>
+                        
                 </div>
-        
-            </section>
-            
-            <section id="contactanos">
-                <h2 class="contactanos__titulo">Envianos un mensaje</h2>
-                <img class="contactanos__img" src="./assets/matesitos.jpg" alt="">
-                <button class="contactanos__boton">CONTACTO</button>
-            </section>
-
+                <div class="col-xxl-6">
+    
+                    <section id="contactanos">
+                        <h2 class="contactanos__titulo">Envianos un mensaje</h2>
+                        <img class="contactanos__img img-fluid" src="./assets/matesitos.jpg" alt="">
+                        <button class="contactanos__boton">CONTACTO</button>
+                    </section>
+            </div>
         </div>
     <hr>
     <footer class="footer">
@@ -76,6 +92,8 @@
       
         </div>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>
 

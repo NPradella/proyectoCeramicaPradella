@@ -1,0 +1,16 @@
+.sobre-nosotros{
+    padding: 200px;
+    &__titulo{
+        display: flex;
+        @include centrado;
+    }
+    &__img{
+        display: none;
+    }
+}
+
+@media (min-width:1024px) {
+    .sobre-nosotros__img {
+        display: block;
+      }
+}

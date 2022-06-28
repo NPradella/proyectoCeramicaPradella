@@ -11,18 +11,34 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Koulen&family=Roboto:wght@400;500;900&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 </head>
-<body>
-<header>
-    <div class="contenedor">
-        <img src="../assets/logofinal.jpeg" alt="" class="contenedor__logo">
-        <nav class="navegador">
-            <a href="../index.html">Inicio</a>
-            <a href="../index.html#sobre-nosotros">Sobre Nosotros</a>
-            <a href="./productos.html">Productos</a>
-            <a href="./contacto.html">Contacto</a>
-        </nav>
-    </div> 
+<body class="color-fondo">
+  <header>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <img src="../assets/logofinal.jpeg" alt="" class="contenedor__logo img-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex text-center text-lg-end align-items-lg-end">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../index.html#sobre-nosotros">Sobre Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./productos.html">Productos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
 </header>    
 <div class="politicas">
     <h1 class="politicas-titulo">Politicas de reembolso</h1>
@@ -37,7 +53,7 @@
             <h3 class="lista1__titulo">Terminos y Condiciones</h3>
             <ul class="nav flex-column lista1">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="./pages/politicas-reembolso.html">Políticas de Reembolso</a>
+                <a class="nav-link active" aria-current="page" href="./politicas-reembolso.html">Políticas de Reembolso</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="./envios.html"> Envíos</a>

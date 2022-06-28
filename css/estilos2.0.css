@@ -127,3 +127,27 @@
 @media (min-width: 1024px) {
   .sobre-nosotros__img {
     display: block; } }
+
+.politicas {
+  display: flex;
+  flex-direction: column;
+  margin: 150px; }
+  .politicas-titulo {
+    padding: 150px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: #04a7a5; }
+
+.envios {
+  display: flex;
+  flex-direction: column;
+  margin: 150px; }
+  .envios-titulo {
+    padding: 150px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: #04a7a5; }

@@ -2,6 +2,7 @@
     padding: 200px;
     &__titulo{
         display: flex;
+        @include titulon;
         @include centrado;
     }
     &__img{

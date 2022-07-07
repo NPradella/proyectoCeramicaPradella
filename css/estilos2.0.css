@@ -1,37 +1,5 @@
-.formulario {
-  display: flex;
-  justify-content: center;
-  background-color: #edeef0;
-  border-radius: 3px;
-  font-size: 1.25em;
-  font-weight: bold;
-  font-family: Roboto;
-  color: #04a7a5;
-  padding: 20px;
-  margin: 10px auto;
-  width: 300px; }
-  .formulario-titulo {
-    display: flex;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    color: #04a7a5; }
-  .formulario__label {
-    font-size: 2em;
-    font-weight: bold;
-    font-family: Roboto; }
-  .formulario__input {
-    border: solid 1px #999;
-    padding: 10px; }
-  .formulario__boton {
-    border-radius: 3px;
-    display: inline-block;
-    padding: 20px 15px;
-    text-decoration: none;
-    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.3);
-    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
-    color: #edeef0;
-    background-color: #04a7a5; }
+* {
+  font-style: Roboto; }
 
 .color-fondo {
   background: #edeef0;
@@ -44,6 +12,11 @@
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#edeef0', endColorstr='#76cccb', GradientType=1 ); }
 
 .color-titulo {
+  font-weight: bold;
+  font-size: 3rem;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
   color: #04a7a5; }
 
 @media (max-width: 768px) {
@@ -62,6 +35,71 @@
     -webkit-filter: grayscale(100%) blur(3px);
     filter: grayscale(100%); }
 
+.mas-productos__boton {
+  color: #04a7a5; }
+
+.formulario {
+  display: flex;
+  justify-content: center;
+  background-color: #edeef0;
+  border-radius: 3px;
+  font-size: 1.25em;
+  font-family: Roboto;
+  color: #04a7a5;
+  padding: 20px;
+  margin: 10px auto;
+  width: 300px; }
+  .formulario-titulo {
+    display: flex;
+    font-weight: bold;
+    font-size: 3rem;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: #04a7a5; }
+  .formulario__label {
+    font-size: 2em;
+    font-family: Roboto; }
+  .formulario__input {
+    border: solid 1px #999;
+    padding: 10px; }
+  .formulario__boton {
+    border-radius: 3px;
+    display: inline-block;
+    padding: 20px 15px;
+    text-decoration: none;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.3);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+    color: #edeef0;
+    background-color: #04a7a5; }
+
+.contactanos {
+  align-items: center;
+  text-align: center;
+  justify-content: center; }
+  .contactanos__titulo {
+    align-items: center;
+    text-align: center;
+    justify-content: center; }
+
+.contactanos {
+  margin: 20px 0px;
+  height: 50vh;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/matesitos.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom; }
+  .contactanos__titulo {
+    font-weight: bold;
+    font-size: 3rem;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: #04a7a5;
+    left: 5px;
+    bottom: 250px;
+    text-shadow: rgba(0, 0, 0, 0); }
+
 .contenedor__logo {
   width: 230px; }
 
@@ -73,6 +111,11 @@
   background-size: cover;
   background-position: center center; }
   .hero__titulo {
+    font-weight: bold;
+    font-size: 3rem;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
     color: #edeef0;
     left: 5px;
     bottom: 250px;
@@ -109,15 +152,23 @@
 
 .titulo-seccion {
   display: flex;
+  font-weight: bold;
+  font-size: 3rem;
   align-items: center;
   text-align: center;
   justify-content: center;
   color: #04a7a5; }
 
+.mas-productos__boton {
+  margin: 100px;
+  padding: 70px; }
+
 .sobre-nosotros {
   padding: 200px; }
   .sobre-nosotros__titulo {
     display: flex;
+    font-weight: bold;
+    font-size: 3rem;
     align-items: center;
     text-align: center;
     justify-content: center; }
@@ -135,6 +186,8 @@
   .politicas-titulo {
     padding: 150px;
     display: flex;
+    font-weight: bold;
+    font-size: 3rem;
     align-items: center;
     text-align: center;
     justify-content: center;
@@ -145,6 +198,8 @@
   flex-direction: column;
   margin: 150px; }
   .envios-titulo {
+    font-weight: bold;
+    font-size: 3rem;
     padding: 150px;
     display: flex;
     align-items: center;

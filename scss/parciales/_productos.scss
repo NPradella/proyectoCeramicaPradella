@@ -33,6 +33,12 @@
 
 .titulo-seccion{
     display: flex;
+    @include titulon;
     @include centrado;
     color: map-get($colores, "celeste");
+}
+
+.mas-productos__boton{
+    margin: 100px;
+    padding: 70px;
 }

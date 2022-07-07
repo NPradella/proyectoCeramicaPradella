@@ -3,6 +3,7 @@
     flex-direction: column;
     margin: 150px;
     &-titulo{
+        @include titulon;
         padding: 150px;
         display: flex;
         @include centrado;

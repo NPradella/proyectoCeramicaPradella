@@ -4,7 +4,6 @@
     background-color: map-get($colores, "blanco");
 	border-radius: 3px;
 	font-size: 1.25em;
-    font-weight: bold;
     font-family: Roboto;
     color: map-get($colores, "celeste");
 	padding: 20px;
@@ -12,12 +11,12 @@
 	width: 300px;
     &-titulo{
         display: flex;
+        @include titulon;
         @include centrado;
     color: map-get($colores, "celeste");
     }
     &__label{
         font-size: 2em;
-    font-weight: bold;
     font-family: Roboto;
     }
     &__input{
@@ -33,5 +32,34 @@
 	box-shadow: 0 1px 1px rgba(0,0,0,0.3); 
     color: map-get($colores, "blanco");
 	background-color: map-get($colores, "celeste");
+    }
+}
+
+.contactanos{
+    @include centrado;
+    &__titulo{
+        @include centrado;
+    }
+}
+
+.contactanos{
+    margin: 20px 0px;
+    height: 50vh;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("/assets/matesitos.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    &__titulo{
+        @include titulon;
+        @include centrado;
+        color: map-get($colores, "celeste");
+        left: 5px;
+        bottom: 250px;
+        text-shadow: rgba(0,0,0,0);
     }
 }

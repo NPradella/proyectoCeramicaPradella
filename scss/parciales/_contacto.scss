@@ -32,6 +32,7 @@
 	box-shadow: 0 1px 1px rgba(0,0,0,0.3); 
     color: map-get($colores, "blanco");
 	background-color: map-get($colores, "celeste");
+    margin-top: 20px;
     }
 }
 
@@ -63,3 +64,4 @@
         text-shadow: rgba(0,0,0,0);
     }
 }
+

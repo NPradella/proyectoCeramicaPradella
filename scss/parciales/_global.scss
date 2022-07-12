@@ -41,3 +41,22 @@
 .mas-productos__boton{
     color: map-get($colores, "celeste");
 }
+
+.footer {
+    list-style: none;
+    font-family: 'Roboto';
+    a{
+        text-decoration: none;
+        color: rgba(34,54,69,.7);
+        font-weight: 500;
+    }
+    a:hover{
+        color: map-get($colores, "celeste");
+    }
+    ul{
+        list-style-type: none;
+    }
+    h3{
+        color: map-get($colores, "celeste");
+    }
+}

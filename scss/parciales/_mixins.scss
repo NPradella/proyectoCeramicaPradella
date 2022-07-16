@@ -1,0 +1,10 @@
+@mixin centrado{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+@mixin titulon{
+    font-weight: bold;
+    font-size: 3rem;
+}

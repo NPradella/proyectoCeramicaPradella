@@ -1,0 +1,62 @@
+*{
+    font-style: Roboto;
+}
+.color{
+    &-fondo{
+        background: rgba(237,238,240,1);
+    background: -moz-linear-gradient(left, rgba(237,238,240,1) 0%, rgba(237,238,240,1) 41%, rgba(237,238,240,1) 51%, rgba(112,224,222,1) 96%, rgba(118,204,203,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(237,238,240,1)), color-stop(41%, rgba(237,238,240,1)), color-stop(51%, rgba(237,238,240,1)), color-stop(96%, rgba(112,224,222,1)), color-stop(100%, rgba(118,204,203,1)));
+    background: -webkit-linear-gradient(left, rgba(237,238,240,1) 0%, rgba(237,238,240,1) 41%, rgba(237,238,240,1) 51%, rgba(112,224,222,1) 96%, rgba(118,204,203,1) 100%);
+    background: -o-linear-gradient(left, rgba(237,238,240,1) 0%, rgba(237,238,240,1) 41%, rgba(237,238,240,1) 51%, rgba(112,224,222,1) 96%, rgba(118,204,203,1) 100%);
+    background: -ms-linear-gradient(left, rgba(237,238,240,1) 0%, rgba(237,238,240,1) 41%, rgba(237,238,240,1) 51%, rgba(112,224,222,1) 96%, rgba(118,204,203,1) 100%);
+    background: linear-gradient(to right, rgba(237,238,240,1) 0%, rgba(237,238,240,1) 41%, rgba(237,238,240,1) 51%, rgba(112,224,222,1) 96%, rgba(118,204,203,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#edeef0', endColorstr='#76cccb', GradientType=1 ); 
+    }
+    &-titulo{
+        @include titulon;
+        @include centrado;
+        color: map-get($colores, "celeste");
+    }
+}
+
+@media (max-width:768px){
+    .bloque-footer{
+        display: flex;
+        flex-direction: column;
+        @include centrado;
+    }
+}
+
+.btn-custom-style{
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+    color: black;
+    background-color: map-get($colores, "celeste");
+    &:hover{
+        -webkit-filter: grayscale(100%) blur(3px);
+	filter: grayscale(100%);
+
+    }
+}
+
+.mas-productos__boton{
+    color: map-get($colores, "celeste");
+}
+
+.footer {
+    list-style: none;
+    font-family: 'Roboto';
+    a{
+        text-decoration: none;
+        color: rgba(34,54,69,.7);
+        font-weight: 500;
+    }
+    a:hover{
+        color: map-get($colores, "celeste");
+    }
+    ul{
+        list-style-type: none;
+    }
+    h3{
+        color: map-get($colores, "celeste");
+    }
+}
